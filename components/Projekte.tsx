@@ -36,6 +36,11 @@ export const Projekte = () => {
                         })}
                     </div>
                 </Section>
+                <a
+                    href="mailto:schmutz@gmail.com"
+                    className="px-6 font-semibold py-3 bg-indigo-800/10 hover:bg-indigo-800/70 backdrop-blur shadow shadow-indigo-700/70 text-neutral-200 text-center rounded-lg transition">
+                    Jetzt kontaktieren
+                </a>
             </div>
         </>
     );
