@@ -7,7 +7,7 @@ const labels = ["Python", "Power BI", "SQL", "Excel", "PM-Tools", "Teamplay"];
 
 export const Hero = () => {
     return (
-        <div className="border border-gray-100/40 w-full px-2 py-3 rounded-xl flex flex-col bg-gray-900/50">
+        <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-2 bg-gray-900/50">
             <div className="font-bold text-4xl">Hello, My Name Is Dorian</div>
             <p className="italic py-1">
                 {" "}
@@ -50,7 +50,7 @@ export const Hero = () => {
                 </div>
             </div>
             <div>
-                <p className="text-3xl pt-4"> Was mich ausmacht </p>
+                <p className="text-3xl py-3"> Was mich ausmacht </p>
                 <p className="">
                     Ich bringe langjährige Erfahrung in der persönlichen
                     Assistenz mit, gepaart mit ausgeprägtem{" "}
