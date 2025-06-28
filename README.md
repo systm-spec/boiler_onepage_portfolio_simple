@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+- One Pager
+- Radar Chart for Skills
+- a few hover
+- and an image slider overlay
+
+![firefox_2QKrajZBYK](https://github.com/user-attachments/assets/a0470380-5e65-4a38-8efc-960d11979e04)
+
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +20,7 @@ pnpm dev
 # or
 bun dev
 ```
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
