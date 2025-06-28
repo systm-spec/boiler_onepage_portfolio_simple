@@ -3,5 +3,5 @@ type SectionProps = {
 };
 
 export const Section = ({ children }: SectionProps) => {
-    return <div className="border-b border-gray-100/80 py-4">{children}</div>;
+    return <div className="border-b border-gray-100/80 py-4 ">{children}</div>;
 };

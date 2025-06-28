@@ -76,10 +76,8 @@ const skills = [
 export const Hero = () => {
     return (
         <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-6 bg-slate-800 shadow-lg border border-slate-600">
-            <div className="font-bold text-4xl">Dorian Ratzmer</div>
-            <p className="italic py-1">
-                IHK-zertifizierter Datenanalyst - Python, SQL, Power BI
-            </p>
+            <div className="font-bold text-4xl">YOUR NAME</div>
+            <p className="italic text-sm py-1">YOUR SUBLINE</p>
 
             {/* Oberer Bereich: zwei Spalten nebeneinander */}
             <div className="flex flex-col md:flex-row w-full justify-center px-2">
@@ -87,7 +85,7 @@ export const Hero = () => {
                 <div className="flex flex-col w-full md:flex-row gap-4">
                     {/* Profilbild */}
                     <Image
-                        src="/Bewerbungsfoto.jpg"
+                        src="/thumb_v.jpg"
                         className="rounded-4xl"
                         width={250}
                         height={200}
@@ -137,18 +135,13 @@ export const Hero = () => {
             <div>
                 <p className="text-3xl py-3">Was mich ausmacht</p>
                 <p>
-                    Ich bringe langjährige Erfahrung in der persönlichen
-                    Assistenz mit – geprägt von{" "}
-                    <b>Verantwortungsbewusstsein, Kommunikationsstärke</b> und{" "}
-                    <b>Organisationstalent</b>. Durch meine Weiterbildung zum
-                    Data Analyst verbinde ich diese <b>Soft Skills</b> mit{" "}
-                    <b>analytischem Denken</b> und <b>technischem Know-how</b>.
-                    Ich arbeite <b>selbstständig, strukturiert</b> und lerne
-                    schnell neue Tools. Meine <b>Empathie</b> hilft mir,
-                    komplexe Daten verständlich aufzubereiten und in{" "}
-                    <b>stressigen Situationen</b> den Überblick zu behalten. Ich
-                    suche eine Position als <b>analytischer Teamplayer</b> in
-                    einem <i>innovativen Umfeld mit Entwicklungspotenzial</i>.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Nulla consequatur pariatur tempora magnam id! Culpa, harum
+                    maxime! Fugiat sed incidunt harum blanditiis labore fugit
+                    dolores commodi unde dignissimos esse dolore vel maiores
+                    aperiam doloribus, beatae repudiandae sit ipsum molestias id
+                    cumque quo! Facere saepe obcaecati ut hic consectetur
+                    perspiciatis ea commodi dolorum ab sit, earum excepturi?
                 </p>
             </div>
         </div>
