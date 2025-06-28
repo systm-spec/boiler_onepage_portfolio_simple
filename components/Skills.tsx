@@ -1,11 +1,11 @@
-import { Chip } from "./Chip";
-import { Section } from "./Section";
+import { Chip } from "./Shared/Chip";
+import { Section } from "./Shared/Section";
 
 const skills = [
-    "Orga",
+    "Organisation",
     "Kommunikation",
     "Empathie",
-    "Verantwortungsbewusstsein",
+    "Verantwortung",
     "Resilienz",
     "Storytelling",
     "Flexibilität",
@@ -15,10 +15,10 @@ const skills = [
 export const Skills = () => {
     return (
         <>
-            <div className="w-full flex flex-col gap-4">
+            <div className="w-full px-3 py-4 rounded-xl flex flex-col gap-2 bg-slate-800 shadow-lg border border-slate-600">
                 <Section>
-                    <p className="text-4xl pb-2"> Berufserfahrung</p>
-                    <div className=" grid grid-cols-3 gap-1.5">
+                    <p className="text-4xl pb-2"> Meine Fähigkeiten</p>
+                    <div className=" grid text-sm md:text-base grid-cols-3 gap-1.5">
                         {skills.map((itm, idx) => {
                             return <Chip key={itm + idx} label={itm} />;
                         })}
@@ -26,13 +26,21 @@ export const Skills = () => {
                 </Section>
 
                 <Section>
-                    <p className="text-4xl pt-2 pb-3"> Ausbildung </p>
+                    <p className="text-4xl pt-2 pb-3"> Abschlüsse </p>
                     <p>
-                        <b>Realschule West Gießen, 2001</b> – Realschulabschluss
+                        Mittelpunktschule Oberer Hüttenberg Kirch-Göns, 2001 -{" "}
+                        <b>Hauptschulabschluss</b>
                     </p>
                     <p>
-                        <b>Geb. Nikolaus GmbH Gießen, 2001-2004</b> – Maler und
-                        Lackierer
+                        Geb. Nikolaus GmbH Gießen, 2001-2004 –{" "}
+                        <b>Maler und Lackierer</b>
+                    </p>
+                    <p>
+                        Realschule West Gießen, 2006 – <b>Realschulabschluss</b>
+                    </p>
+                    <p>
+                        Data Craft Academy 2024-2025 -{" "}
+                        <b>IHK-Zertifizierter Data Analyst</b>
                     </p>
                 </Section>
                 <Section>
